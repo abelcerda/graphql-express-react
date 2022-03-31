@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const graphqlHTTP = require('express-graphql');
+const { graphqlHTTP } = require('express-graphql');
 const gql = require('graphql-tag');
 const { buildASTSchema } = require('graphql');
 
